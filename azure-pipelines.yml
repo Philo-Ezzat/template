@@ -3,9 +3,9 @@ trigger:
 
 steps:
 
-- template: sample-template-step.yml
+- template: sample-pipeline/sample-template-step.yml
 
-- template: sample-template-step.yml
+- template: sample-pipeline/sample-template-step.yml
 
-- template: sample-template-step.yml
+- template: sample-pipeline/sample-template-step.yml
    
