@@ -3,8 +3,8 @@ trigger:
 
 variables:
   backendServiceArm: 'azure-cli-2024-10-14-06-24-51'
-  backendAzureRmResourceGroupName: 'resourcegroup-devops'
-  backendAzureRmStorageAccountName: 'terraformstorage'
+  backendAzureRmResourceGroupName: 'resourcegroup-devopsy'
+  backendAzureRmStorageAccountName: 'teraformstorage032'
   backendAzureRmContainerName: 'tfstate'
   location: 'westeurope'
   tfBackendEnvironment: tf_backend
