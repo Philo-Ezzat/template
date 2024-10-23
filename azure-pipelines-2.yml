@@ -1,0 +1,13 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+- name: aloneVar
+  value: 'value of aloneVar'
+  
+
+steps:
+  - script: echo $(aloneVar)
